@@ -34,15 +34,16 @@ export default function Banner() {
 
                         <button className="mt-6 flex items-center  rounded-[10px] overflow-hidden">
 
-                        <span className="px-6 py-3 text-[16px] md:text-[18px] bg-[#51A46B] text-white">
+                         <span className="relative px-6 py-3 text-[16px] md:text-[18px]  bg-[#51A46B] text-white
+                            rounded-[10px]    before:content-['']  before:absolute before:left-0  before:top-1/2
+                            before:-translate-y-1/2 before:-translate-x-1/2
+                            before:w-[55px] before:h-[55px] before:bg-white before:rounded-full">
                           مشاهده محصولات
                         </span>
-
-                            <span className="w-[55px] h-[55px] bg-white flex items-center justify-center border-r border-[#DDEEE2]">
-                                         <PanelsTopLeft size={24} />
-
-                             </span>
-
+                            {/*<span*/}
+                            {/*    className="w-[55px] h-[55px] bg-white flex items-center justify-center border-r border-[#DDEEE2]">*/}
+                            {/*             <PanelsTopLeft size={24}/>*/}
+                            {/* </span>*/}
                         </button>
 
                     </div>
@@ -51,15 +52,16 @@ export default function Banner() {
                         <Image
                             src="/images/banner-image.png"
                             alt="banner"
-                            width={700}
-                            height={700}
+                            width={800}
+                            height={800}
                             className="object-contain"
                         />
                     </div>
 
                 </div>
 
-                <div className="flex flex-row justify-between items-stretch md:p-10  bg-white border border-[#E9E8E3] rounded-[20px]">
+                <div
+                    className="flex flex-row justify-between items-stretch md:p-10  bg-white border border-[#E9E8E3] rounded-[20px]">
 
                     <FeatureBox
                         icon={<Truck/>}
@@ -81,5 +83,5 @@ export default function Banner() {
                 </div>
             </div>
         </section>
-)
+    )
 }

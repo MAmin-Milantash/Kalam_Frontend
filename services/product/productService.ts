@@ -29,6 +29,27 @@ const sampleProducts: Product[] = [
         unit: "کیلو",
         price: 55000,
     },
+    {
+        id: "4",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6e5QA02QniPtNkLNohnGjtfVduFMMWqv4dzRp0XT-Z_mijRrUGruLRAiYWyw1HEG2_8e-s8qQlM9g0mRAAZQNWGcJznFNKSoJg1uV&s=10",
+        productName: "توت فرنگی",
+        unit: "کیلو",
+        price: 120000,
+    },
+    {
+        id: "5",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpvsLi4TWju6HLe8u2kfmk7kfRyLR1kVFR5g&s",
+        productName: "آناناس",
+        unit: "کیلو",
+        price: 98000,
+    },
+    {
+        id: "6",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpBuv9BvfChhah0axEIstyz6Y_-Dtp7hB5PKBLrbZpmX8D58DD2ItZ2e-8uJSbHIUuc_sbJ1HjegvSuyk7xvv-3acqrjMSFSoeE3yJTA&s=10",
+        productName: "آووکادو",
+        unit: "کیلو",
+        price: 55000,
+    },
 ];
 
 // توابع برای دریافت نمونه دیتا

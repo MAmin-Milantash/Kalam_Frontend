@@ -1,4 +1,4 @@
-import Button from "@/components/ui/Button"
+import CustomButton from "@/components/shared/custom-button";
 
 type Props = {
     id: number
@@ -39,7 +39,7 @@ export default function CategoryCard({
 
                 {/* 🟢 BUTTON */}
                 <div className="mt-2">
-                    <Button
+                    <CustomButton
                         label="مشاهده محصولات"
                         variant="greenOutline"
                         href="/products"

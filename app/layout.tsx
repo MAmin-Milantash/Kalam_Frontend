@@ -16,7 +16,7 @@ const iranSans = localFont({
         },
     ],
     variable: "--font-iran",
-})
+});
 
 export default function RootLayout({
                                        children,
@@ -24,7 +24,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="fa" className={iranSans.variable}>
+        <html lang="fa" dir="rtl" className={iranSans.variable}>
         <body className="font-sans">
         <Header/>
         {children}
